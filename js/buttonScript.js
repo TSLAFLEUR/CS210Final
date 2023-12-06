@@ -1,7 +1,5 @@
-function test(){
-	document.getElementById('demo').innerHTML = Date();
-}
-
+//Scroll functions
+//Designed gradually scroll towards specified location
 function scrollAbout(){
 	document.getElementById('aboutMe').scrollIntoView({behavior: 'smooth',block: 'center'});
 }
@@ -22,6 +20,7 @@ function scrollFoot(){
 	document.getElementById('foot').scrollIntoView({behavior: 'smooth',block: 'center'});
 }
 
+//Slideshow functions
 let slideIndex =1;
 showSlides(slideIndex);
 

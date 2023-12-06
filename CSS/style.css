@@ -1,3 +1,4 @@
+/*For header*/
 .header{
 	padding: 80px;
 	text-align: center;
@@ -7,7 +8,7 @@
 .header h1{
 	font-size: 40px;
 }
-
+/*For navbar*/
 .navbar{
 	overflow: hidden;
 	background-color: #333;
@@ -28,7 +29,7 @@
 	background-color: #ddd;
 	color:black;
 }
-
+/*For footer*/
 .footer{
 	padding: 20px;
 	text-align: center;
@@ -41,15 +42,17 @@
 	text-decoration: none;
 }
 
+/*For flexboxes*/
 * {
 	box-sizing: border-box;
 }
 
+/*about me and contact me sections*/
 .row{
 	display: flex;
 	flex-wrap: wrap;
 }
-
+/*smaller portion*/
 .side{
 	flex: 20%;
 	background-color: gray;
@@ -59,14 +62,14 @@
 .CMside{
 	flex:40%;
 }
-
+/*self picture*/
 .center{
 	vertical-align: middle;
 	width: 250px;
 	height: 250px;
 	border-radius: 50%;
 }
-
+/*bigger portion*/
 .main{
 	flex: 80%;
 	background-color: darkgray;
@@ -81,7 +84,7 @@
 .main hd{
 	font-size: larger;
 }
-
+/*Showcase Section*/
 .showcase{
 	max-height: 1000px;
 	position: relative;
@@ -92,7 +95,7 @@
 .mySlides{
 	display: none;
 }
-
+/*showcase left and right arrows*/
 .prev, .next{
 	cursor: pointer;
 	position: absolute;
@@ -167,12 +170,12 @@
 .btn:hover{
 	background-color: #333;
 }
-
+/*used for showcase photo transition*/
 @keyframes fade{
 	from {opacity: .4}
 	to {opacity: 1}
 }
-
+/*flex boxs for mobile and desktop*/
 @media screen and (max-width: 700px) {
 	.row{
 		flex-direction: column;

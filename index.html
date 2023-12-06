@@ -12,18 +12,19 @@
 		<script src="js/buttonScript.js"></script>
 	</head>
 	<body>
+<!-- Header -->
 		<div class="header">
 			<h1>Tyler LaFleur</h1>
 			<p>Computer Programmer</p>
 		</div>
-
+<!-- Navbar -->
 		<div id="top" class="navbar">
 			<a href="#" onclick="scrollAbout()">About Me</a>
 			<a href="#" onclick="scrollShowcase()">Showcase</a>
 			<a href="#" onclick="scrollContact()">Contact Me</a>
 			<a href="#" onclick="scrollFoot()" class="right">To Bottom</a>
 		</div>
-
+<!-- About Me Section -->
 		<div id="aboutMe" class="row">
 			<div class="side">
 				<img id="selfImage" src="images/selfpic.jpeg" alt="selfImage" class="center">
@@ -44,15 +45,17 @@
 				Would you like to know more?</button>
 			</div>
 		</div>
-
+<!-- Showcase Section -->
 		<div id="showcase" class="showcase">
 			<br>
+			<!-- Showcase Dots -->
 			<div style="text-align: center;">
 				<span class="dot" onclick="currentSlide(1)"></span>
 				<span class="dot" onclick="currentSlide(2)"></span>
 				<span class="dot" onclick="currentSlide(3)"></span>
 			</div>
 			<br>
+			<!-- Showcase Pictures -->
 			<div class="slideshow">
 				<div class="mySlides fade">
 					<div class="numbertext">1/3</div>
@@ -72,13 +75,14 @@
 					<br>
 					<div class="text">Custom shell program created in C</div>
 				</div>
+				<!-- Showcase Arrows -->
 				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 				<a class="next" onclick="plusSlides(1)">&#10095;</a>
 				<br>
 			</div>
 			
 		</div>
-
+<!-- Contact Me Section -->
 		<div id="contactMe" class="row">
 			<div id="CMmain" class="main">
 				<h1>Contact Me:</h1>
@@ -86,11 +90,13 @@
 				<p>Email: tslafleur@nic.edu</p>
 				<p>Phone: ***-***-****</p>
 			</div>
+			<!-- Download button -->
 			<div id="CMside" class="side">
 				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"">
 				<button class="btn"><i class="fa fa-download"></i> My Resume</button>
 			</div>
 		</div>
+<!-- Footer -->
 		<div id="foot" class="footer">
 			<a href="#" onclick="scrollTop()">To Top</a>
 		</div>
